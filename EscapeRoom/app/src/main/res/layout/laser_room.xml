@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7"
+    >
+    <include layout="@layout/lazer_button_array"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="6"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="5"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/bForm1"
+            android:text="Form1"
+            android:layout_margin="2dp"
+            android:background="@color/silver"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/bForm2"
+            android:text="Form2"
+            android:layout_margin="2dp"
+            android:background="@color/silver"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/bForm3"
+            android:text="Form3"
+            android:layout_margin="2dp"
+            android:background="@color/silver"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/bFormEdit"
+            android:text="Form edit"
+            android:layout_margin="2dp"
+            android:background="@color/silver"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/bApplyLazetSet"
+            android:text="error"
+            />
+        </LinearLayout>
+</LinearLayout>
